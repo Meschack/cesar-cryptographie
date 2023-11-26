@@ -1,3 +1,7 @@
+[![Netlify Deploy Status](https://api.netlify.com/api/v1/badges/c4133739-91cb-4d8d-a864-ecfe26b6eb83/deploy-status)](https://app.netlify.com/sites/cesar-cryptographie/deploys)
+
+Tester le programme : [https://cesar-cryptographie.netlify.app/](https://cesar-cryptographie.netlify.app/)
+
 ### Algorithme de Cryptographie de César en TypeScript
 
 Ce code TypeScript implémente l'algorithme de chiffrement de César pour crypter et décrypter du texte.
@@ -162,5 +166,3 @@ Pour le décryptage (`isToDecrypt` est `true`), le processus est similaire, mais
     ```
 
 En résumé, cette logique utilise les tableaux `normalValuesOrder` et `correspondance` pour faire correspondre chaque lettre de la phrase d'entrée à sa lettre encryptée ou décryptée, en fonction de la casse. La lettre résultante est ensuite ajoutée à la chaîne de résultat.
-
-Tester le programme : [https://cesar-cryptographie.netlify.app/](https://cesar-cryptographie.netlify.app/)
