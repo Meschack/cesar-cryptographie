@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./src/style.css" />
+        <title>Cryptographie de César</title>
+    </head>
+
+    <body>
+        <div class="card">
+            <div class="messageContainer">
+                <span>Résultat du cryptage</span>
+                <p class="display"></p>
+            </div>
+
+            <form method="post">
+                <div class="form-group">
+                    <label for="action">Action</label>
+                    <select name="action" id="action" class="form-control">
+                        <option value="encrypt">Crypter</option>
+                        <option value="decrypt">Décrypter</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="sentence">Phrase à crypter</label>
+                    <input type="text" id="sentence" class="form-control" />
+                </div>
+            </form>
+        </div>
+        <script type="module" src="./src/main.ts"></script>
+    </body>
+</html>
